@@ -7,4 +7,4 @@ Nesse projeto implementamos uma tabela de hash distribuída (DHT) que apesar da 
 
 • Inclusão, remoção e pesquisa de pares de chave-valor.
 
-Também foi criado uma aplicação distribuída que utiliza e demonstra o funcionamento da nossa tabela de hash distribuídas.
+Também foi criado uma aplicação distribuída que utiliza e demonstra o funcionamento da nossa tabela de hash distribuídas
