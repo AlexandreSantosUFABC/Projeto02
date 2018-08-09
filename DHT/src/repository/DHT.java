@@ -6,11 +6,11 @@ import java.util.List;
 import model.Node;
 
 // classe com a lista de nós na DHT
-public class NodeList {
+public class DHT {
 
 	private static List<Node> nodesList;
 	
-	public NodeList() {
+	public DHT() {
 		nodesList = new ArrayList<>();
 	}
 	
