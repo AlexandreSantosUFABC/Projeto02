@@ -7,14 +7,13 @@ package model;
 //Chamamos de nó p o nó cujo identificador é p
 public class Node {
 
-	private static int cont = 0;
 	private int id;
 	
 	private Node anterior;
 	private Node sucessor;
 	
-	public Node() {
-		this.id = cont++;
+	public Node(int id) {
+		this.id = id;
 	}
 	
 	public int getId() {
@@ -35,6 +34,12 @@ public class Node {
 
 	public void setSucessor(Node sucessor) {
 		this.sucessor = sucessor;
+	}
+	
+
+	// insere uma nova entidade na dht
+	public void newEntity() {
+
 	}
 
 }
